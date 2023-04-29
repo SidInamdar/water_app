@@ -23,6 +23,8 @@ class preferences {
     if (deleteEntireData) {
       prefs.setStringList('vesselsList', []);
       prefs.setStringList('datesList', []);
+
+      prefs.setDouble('currentWaterIntake', 0.0);
     }
   }
 
